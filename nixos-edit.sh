@@ -1,5 +1,5 @@
 #!/bin/sh
 
 pushd ~/nixos-config
-sudo nano configuration.nix
+nano configuration.nix
 popd
