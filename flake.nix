@@ -13,7 +13,7 @@
     nixos-hardware.url = "github:nixos/nixos-hardware";
   };
 
-  outputs = inputs @ { self, nixpkgs, home-manager, nixos-hardware, ... }: {
+  outputs = inputs @ { nixpkgs, nixos-hardware, ... }: {
 
     formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixfmt-classic;
 
