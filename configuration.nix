@@ -165,6 +165,7 @@
     cmake
     upower
     gvfs    
+    plymouth
 
     (writeScriptBin "nixos-switch" (builtins.readFile ./nixos-switch.sh))
     (writeScriptBin "nixos-edit" (builtins.readFile ./nixos-edit.sh))
@@ -203,6 +204,8 @@
   # for wpgtk, wallpaper colorscheme
   programs.dconf.enable = true;
 
+  boot.plymouth.enable = true;
+ 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
