@@ -167,7 +167,6 @@
     upower
     gvfs    
     plymouth
-    meson
 
     (writeScriptBin "nixos-switch" (builtins.readFile ./nixos-switch.sh))
     (writeScriptBin "nixos-edit" (builtins.readFile ./nixos-edit.sh))
@@ -176,6 +175,8 @@
       numpy
       wheel 
       pip
+      meson
+      ninja
     ]))
  ];
 
