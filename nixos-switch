@@ -2,7 +2,7 @@
 
 pushd ~/nixos-config
 sudo nixos-rebuild switch --flake .#
-git clean -f
+git rm --cached *
 git add *
 git commit -m "new gen"
 git push
