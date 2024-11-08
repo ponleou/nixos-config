@@ -1,0 +1,9 @@
+#!/bin/sh
+
+pushd ~/nixos-config
+sudo nixos-rebuild switch --flake .#
+git rm --cached -r *
+git add *
+git commit -m "new gen"
+git push
+popd
