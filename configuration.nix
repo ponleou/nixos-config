@@ -165,7 +165,8 @@
     cmake
     upower
     
-    (writeScriptBin "myscript" (builtins.readFile ./nixos-switch))
+    (writeScriptBin "nixos-switch" (builtins.readFile ./nixos-switch.sh))
+    (writeScriptBin "nixos-edit" (builtins.readFile ./nixos-edit.sh))
     
     (python3.withPackages(ps: with ps; [ 
       numpy
