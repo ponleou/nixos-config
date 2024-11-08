@@ -164,7 +164,9 @@
     nvc
     cmake
     upower
-
+    
+    (writeScriptBin "myscript" (builtins.readFile ./nixos-switch))
+    
     (python3.withPackages(ps: with ps; [ 
       numpy
       wheel 
