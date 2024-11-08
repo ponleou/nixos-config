@@ -2,8 +2,8 @@
 
 pushd ~/nixos-config
 sudo nixos-rebuild switch --flake .#
-git rm --cached *
 git add *
+git rm --cached *
 git commit -m "new gen"
 git push
 popd
