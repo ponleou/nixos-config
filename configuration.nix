@@ -192,6 +192,8 @@
     noto-fonts-cjk-sans
     noto-fonts-emoji
     roboto
+    roboto-slab
+    roboto-serif
   ];
 
   # Upower to show battery in AGS
