@@ -141,6 +141,7 @@
     libdbusmenu-gtk3
     ags
     gnome-bluetooth
+    pavucontrol
     wl-clipboard
     wayshot
     swappy
