@@ -206,6 +206,14 @@
   # Upower to show battery in AGS
   services.upower.enable = true;
 
+  services.tlp.enable = true;
+  services.tlp.settings = {
+    TLP_ENABLE=1;
+    TLP_DEFAULT_MODE=BAT;
+    SOUND_POWER_SAVE_ON_AC=10;
+    SOUND_POWER_SAVE_ON_BAT=10;
+  };
+
   # for wpgtk, wallpaper colorscheme
   programs.dconf.enable = true;
 
