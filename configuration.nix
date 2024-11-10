@@ -271,7 +271,7 @@
   programs.hyprland.xwayland.enable = true;
 
   # PPD
-  services.power-profiles-daemon.enable = true;
+  services.power-profiles-daemon.enable = false;
 
   # copied from github to try material you dotfiles
   # programs.bun.enable = true;
