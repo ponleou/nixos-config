@@ -170,7 +170,7 @@
 
     (writeScriptBin "nixos-switch" (builtins.readFile ./nixos-switch.sh))
     (writeScriptBin "nixos-edit" (builtins.readFile ./nixos-edit.sh))
-    (writeScriptBin "nixos-edit flake" (builtins.readFile ./nixos-flake-edit.sh)))
+    (writeScriptBin "nixos-edit flake" (builtins.readFile ./nixos-flake-edit.sh))
 
     (python3.withPackages(ps: with ps; [ 
       numpy
