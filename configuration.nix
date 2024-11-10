@@ -209,7 +209,7 @@
   services.tlp.enable = true;
   services.tlp.settings = {
     TLP_ENABLE=1;
-    TLP_DEFAULT_MODE=BAT;
+    TLP_DEFAULT_MODE="BAT";
     SOUND_POWER_SAVE_ON_AC=10;
     SOUND_POWER_SAVE_ON_BAT=10;
   };
