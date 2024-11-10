@@ -167,7 +167,7 @@
     upower
     gvfs    
     plymouth
-    tiny-dfr
+    tlp
 
     (writeScriptBin "nixos-switch" (builtins.readFile ./nixos-switch.sh))
     (writeScriptBin "nixos-edit" (builtins.readFile ./nixos-edit.sh))
