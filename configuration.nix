@@ -134,7 +134,6 @@
     xdg-utils
     bun
     gnome-shell
-    nautilus
     xfce.thunar
     hyprpicker
     gnomeExtensions.launcher
